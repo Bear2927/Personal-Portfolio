@@ -17,8 +17,8 @@ const About = () => {
             <div className='md:text-right text-2xl font-bold'>
               <p>Hi. My name is Barrett Hiltabrand, it's a pleasure to meet you. Please take a look around.</p>
             </div>
-            <div className='pl-14'>
-              <img src={headshot} alt="headshot" className='border-4 border-violet-900 rounded-3xl h-72 shadow-[#FDEEDC] shadow-lg hover:scale-110 duration-500'/>
+            <div className='pl-14 pb-2'>
+              <img src={headshot} alt="headshot" className='border-4 border-violet-900 rounded-3xl h-72 shadow-[#FDEEDC] shadow-md hover:scale-110 duration-500'/>
             </div>
             <div className='md:text-left text-base '>
               <p>I am passionate about building excellent software that improves
