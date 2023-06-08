@@ -10,7 +10,7 @@ function App() {
   
 
   return (
-    <div class="bg-gradient-to-l from-violet-800 to-blue-600 background-animate" >
+    <div class="bg-gradient-to-r from-purple-900 via-60% via-blue-800 to-sky-600 background-animate" >
       <NavBar />
       <Home />
       <About />
