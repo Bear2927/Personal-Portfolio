@@ -16,10 +16,10 @@ const Home = () => {
       {/* Container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         <p className='text-pink-500 text-lg'>Hi, my name is</p>
-        <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>
+        <h1 className='text-4xl md:text-7xl font-bold text-[#ccd6f6]'>
           Barrett Hiltabrand
         </h1>
-        <h2 className='text-4xl sm:text-7xl font-bold text-[#cc7bfe]'>
+        <h2 className='text-4xl md:text-7xl font-bold text-[#cc7bfe]'>
           I'm a Full Stack Developer.
         </h2>
         <p className='text-white py-4 max-w-[700px]'>
