@@ -5,22 +5,22 @@ const About = () => {
   return (
     <div name='about' className='w-full h-screen text-gray-300'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
-        <div className='max-w-[1000px] w-full grid grid-cols-3 grid-rows-1'>
-          <div className='sm:text-right pl-8 pb-0'>
+        <div className='max-w-[1000px] w-full grid grid-cols-3 gap-8'>
+          <div className='md:text-right pb-8 pl-4'>
             <p className='text-4xl font-bold inline border-b-4 border-pink-600'>
               About
             </p>
           </div>
           <div></div>
           </div>
-          <div className='max-w-[1000px] w-full grid sm:grid-cols-2 grid-rows-2 gap-0 px-16'>
-            <div className='sm:text-right text-2xl font-bold pt-10'>
+          <div className='max-w-[1000px] w-full grid sm:grid-cols-3 gap-0 px-4'>
+            <div className='md:text-right text-2xl font-bold'>
               <p>Hi. My name is Barrett Hiltabrand, it's a pleasure to meet you. Please take a look around.</p>
             </div>
-            <div className='pl-14  row-span-2'>
-              <img src={headshot} alt="headshot" className='border-4 border-violet-900 rounded-3xl h-96 shadow-[#FDEEDC] shadow-lg hover:scale-110 duration-500'/>
+            <div className='pl-14'>
+              <img src={headshot} alt="headshot" className='border-4 border-violet-900 rounded-3xl h-72 shadow-[#FDEEDC] shadow-lg hover:scale-110 duration-500'/>
             </div>
-            <div className='sm:text-right text-base'>
+            <div className='md:text-left text-base '>
               <p>I am passionate about building excellent software that improves
               the lives of those around me. I specialize in creating software
               for clients ranging from individuals and small-businesses all the
