@@ -7,8 +7,10 @@ import Work from "./components/Work";
 
 
 function App() {
+  
+
   return (
-    <div class="bg-gradient-to-r from-violet-800 to-blue-600 background-animate" >
+    <div class="bg-gradient-to-l from-violet-800 to-blue-600 background-animate" >
       <NavBar />
       <Home />
       <About />

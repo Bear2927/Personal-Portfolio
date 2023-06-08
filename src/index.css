@@ -30,7 +30,7 @@
 }
 
 .background-animate {
-    background-size: 400%;
+    background-size: 600%;
 
     -webkit-animation: AnimationName 5s ease infinite;
     -moz-animation: AnimationName 5s ease infinite;

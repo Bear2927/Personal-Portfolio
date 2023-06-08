@@ -1,15 +1,18 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { data } from "../data/data.js";
+import { ScrollContext } from '../store/scroll_context.js';
 
 
-const Work = () => {
+const Work = ({ref}) => {
+
+    const scrollctx = useContext(ScrollContext);
 
     // projects file
     const project = data;
     //setProject(data);
   
   return (
-    <div name='work' className='w-full md:h-screen text-gray-300 '>
+    <div ref={scrollctx.workRef} name='work' className='w-full md:h-screen text-gray-300 '>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>
@@ -26,7 +29,7 @@ const Work = () => {
   <div
     key={index}
     style={{ backgroundImage: `url(${item.image})` }}
-    className="shadow-2xl shadow-[#F2FA5A] group container rounded-md 
+    className="shadow-xl shadow-[#FDEEDC] group container rounded-md 
               flex justify-center text-center items-center mx-auto content-div "
   >
     {/* Hover effect for images */}

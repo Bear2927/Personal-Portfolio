@@ -1,7 +1,16 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
+import { ScrollContext } from '../store/scroll_context';
 
 const Home = () => {
+  const scrollctx = useContext(ScrollContext);
+
+  const handleButton =() => {
+    setTimeout(() => {
+      scrollctx.workRef.current.scrollIntoView({ behavior:'smooth'});
+    }, 0);
+  }
+
   return (
     <div name='home' className='w-full h-screen'>
       {/* Container */}
@@ -19,7 +28,7 @@ const Home = () => {
           building responsive full-stack web applications.
         </p>
         <div>
-          <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
+          <button onClick={handleButton} className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
             View Work
             <span className='group-hover:rotate-90 duration-300'>
               <HiArrowNarrowRight className='ml-3 ' />

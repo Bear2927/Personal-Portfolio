@@ -20,41 +20,37 @@ const Skills = () => {
           </div>
 
           <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
-              <div className='shadow-2xl shadow-[#F2FA5A] hover:scale-110 duration-500'>
+              <div className='shadow-lg shadow-[#FDEEDC] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />
                   <p className='my-4'>HTML</p>
               </div>
-              <div className='shadow-2xl shadow-[#F2FA5A] hover:scale-110 duration-500'>
+              <div className='shadow-lg shadow-[#FDEEDC] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={CSS} alt="HTML icon" />
                   <p className='my-4'>CSS</p>
               </div>
-              <div className='shadow-2xl shadow-[#F2FA5A] hover:scale-110 duration-500'>
+              <div className='shadow-lg shadow-[#FDEEDC] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={JavaScript} alt="HTML icon" />
                   <p className='my-4'>JAVASCRIPT</p>
               </div>
-              <div className='shadow-2xl shadow-[#F2FA5A] hover:scale-110 duration-500'>
+              <div className='shadow-lg shadow-[#FDEEDC] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={ReactImg} alt="HTML icon" />
                   <p className='my-4'>REACT</p>
               </div>
-              <div className='shadow-2xl shadow-[#F2FA5A] hover:scale-110 duration-500'>
+              <div className='shadow-lg shadow-[#FDEEDC] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={GitHub} alt="HTML icon" />
                   <p className='my-4'>GITHUB</p>
               </div>
-              <div className='shadow-2xl shadow-[#F2FA5A] hover:scale-110 duration-500'>
+              <div className='shadow-lg shadow-[#FDEEDC] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Python} alt="HTML icon" />
                   <p className='my-4'>PYTHON</p>
               </div>
-              <div className='shadow-2xl shadow-[#F2FA5A] hover:scale-110 duration-500'>
+              <div className='shadow-lg shadow-[#FDEEDC] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Rails} alt="HTML icon" />
                   <p className='my-4'>RAILS</p>
               </div>
-              <div className='shadow-2xl shadow-[#F2FA5A] hover:scale-110 duration-500'>
+              <div className='shadow-lg shadow-[#FDEEDC] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Tailwind} alt="HTML icon" />
                   <p className='my-4'>TAILWIND</p>
-              </div>
-              <div className='shadow-2xl shadow-[#F2FA5A] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={PostgreSQL} alt="HTML icon" />
-                  <p className='my-4'>POSTGRESQL</p>
               </div>
           </div>
       </div>
