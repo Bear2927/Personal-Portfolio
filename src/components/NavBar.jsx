@@ -116,7 +116,7 @@ const NavBar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='barretthiltabrand@yahoo.com'
+              href='mailto:barretthiltabrand@yahoo.com'
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -124,8 +124,7 @@ const NavBar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
-            >
+              href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:c2db7040-4403-43c4-86c7-01372414108b" >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
